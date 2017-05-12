@@ -1,0 +1,57 @@
+.catalog {
+  width: 1110px;
+  height: 230px;
+  padding-top: 60px;
+  background: #e0dfe2;
+  min-width: 100%;
+}
+
+.title2 h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 200;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.marks {
+  float: right;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.marks ul li {
+  float: left;
+}
+
+.marks ul li a {
+  text-decoration: none;
+  display: block;
+  color: #666;
+}
+
+#lightSlider li .liInli li {
+  width: 150px;
+  height: 140px;
+  padding: 0 5px;
+  position: relative;
+}
+
+#lightSlider li .liInli li:first-child {
+  margin-left: 70px;
+}
+
+#lightSlider li .liInli li:last-child {
+  margin-right: 70px;
+}
+
+#lightSlider li .liInli li img {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+#lightSlider li .liInli li:hover {
+  background: #ccc;
+}
